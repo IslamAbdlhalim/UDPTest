@@ -3,7 +3,6 @@ using System.Net.Sockets;
 using System.Text;
 
 namespace UDPTest;
-
 public static class UDPClientSend
 {
 

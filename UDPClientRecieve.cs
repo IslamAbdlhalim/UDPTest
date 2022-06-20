@@ -1,9 +1,6 @@
-﻿using System.Net;
-using System.Net.Sockets;
-using System.Text;
+﻿using System.Text;
 
 namespace UDPTest;
-
 public static class UDPClientReceive
 {
 

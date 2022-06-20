@@ -1,5 +1,4 @@
-﻿using System.Net.Sockets;
-using UDPTest;
+﻿using UDPTest;
 
 Thread _sendingThread = new Thread(UDPClientSend.SendMessage);
 Thread _receivingThread = new Thread(UDPClientReceive.ReceiveMessage);
