@@ -9,7 +9,7 @@ public static class UDPClientReceive
     {
         try
         {
-            byte[] byteRecieved = UDPClientSend._client.Receive(ref UDPClientSend._endPoint);
+            byte[] byteRecieved = UDPClientSend.Client.Receive(ref UDPClientSend._endPoint);
             string messageRecieved = Encoding.ASCII.GetString(byteRecieved);
             Console.WriteLine(messageRecieved);
         }
